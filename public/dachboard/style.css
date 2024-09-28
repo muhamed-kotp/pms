@@ -1,0 +1,165 @@
+/* Sidebar styles */
+.navbar-toggler {
+    border: none; /* Remove border if necessary */
+}
+
+.navbar-toggler-icon {
+    font-size: 24px;
+    color: #fff; /* Make sure the icon is visible */
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: transparent;
+    color: #fff;
+    transition: width 0.3s;
+    max-height: 100vh;
+    /* Adjust the height */
+    overflow-y: auto;
+    padding-right: 10px;
+    /* Avoid scrollbar overlaying content */
+}
+.sidbar-toggle-btn{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.sidebar ul.nav-treeview {
+    display: none;
+    padding-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Show the nested ul when the parent li is clicked */
+.sidebar li.active>ul.nav-treeview {
+    display: block;
+}
+
+/* Transition for smooth appearance */
+.sidebar ul.nav-treeview li {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+/* On show, make the items visible and smoothly appear */
+.sidebar li.active ul.nav-treeview li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.sidebar.collapsed {
+    width: 65px;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+.sidebar.collapsed .nav-link i {
+    margin-right: 0;
+}
+
+.sidebar.collapsed .nav-link span {
+    display: none;
+}
+
+.main-content {
+    margin-top: 50px;
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+
+}
+
+.main-content.collapsed {
+    margin-left: 65px;
+}
+
+.navbar .toggle-btn {
+    color: #000000;
+}
+
+.img-circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.nav-item .fa-angle-left {
+    transition: transform 0.3s ease;
+    margin-left: 40px
+}
+
+/* Rotate the arrow down when the submenu is open */
+.nav-item.active .fa-angle-left {
+    transform: rotate(90deg);
+    /* Rotates arrow downwards */
+}
+
+/* When submenu is open, rotate arrow */
+.nav-item.active>a .fa-angle-left {
+    transform: rotate(-90deg);
+}
+.nav-treeview {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.nav-item.active .nav-treeview {
+    display: block;
+}
+
+
+                                    /* END SideBar  */
+/* ____________________________________________________________________________________ */
+
+
+.main_form {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px;
+}
+
+.createBtn a{
+    text-decoration: none;
+    color: green;
+}
+.createBtn:hover a{
+    color: white;
+    font-weight: bold;
+}
+.long-cell{
+    max-width: 150px; /* Set a maximum width */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis (...) when text is truncated */
+}
+.table-responsive {
+    overflow-x: auto; /* Allows horizontal scroll if table overflows */
+}
+
+/* Ensure the table fits within the main content */
+table {
+    width: 100%; /* Table will expand to fill available width */
+}
+
+.table td, .table th {
+    white-space: nowrap; /* Prevent text from wrapping in table cells */
+}

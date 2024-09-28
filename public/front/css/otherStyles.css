@@ -1,0 +1,181 @@
+
+/* General Section Styling */
+.join-brand-family-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+
+/* Job Openings */
+.open-positions {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.open-positions h4 {
+  color: #1a2952;
+  font-weight: 700;
+}
+
+.open-positions .subtitle {
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.space {
+  height: 80px;
+}
+
+.dotted-line {
+  width: 65%;
+  border: none;
+  border-top: 1px dotted black;
+  margin: 0 auto 40px auto;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form-left,
+.form-right {
+  width: 48%;
+}
+
+/* .contact-form input,
+.contact-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 95%;
+  border-left: 2px solid #c9c95a;
+  border-radius: 5px;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 0;
+  background-color: #f1f1f1;
+} */
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #c9c95a;
+  color: #fff;
+  position: relative;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+}
+
+.contact-form button:hover {
+  background-color: #3b4a72;
+}
+
+.heading h4 {
+  color: #1a2952;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* General Section Styling */
+.contact-us-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.contact-us-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Message Styling */
+.message {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.message h2 {
+  color: #1a2952;
+  font-weight: 700;
+}
+
+.message p {
+  color: #555;
+}
+
+/* Contact Info Layout */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.contact-left,
+.contact-right {
+  width: 48%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.contact-left .top-border,
+.contact-right .top-border {
+  border-top: 2px solid #1a2952;
+  padding-top: 20px;
+}
+
+.contact-right {
+  background-color: #f0f4f8;
+}
+
+/* Map Location */
+.map-location {
+  margin-bottom: 40px;
+}
+
+.map-location h4 {
+  text-align: center;
+  color: #1a2952;
+}
+
+/* Contact Form */
+.contact-form {
+  text-align: center;
+}
+
+.contact-form h4 {
+  color: #1a2952;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #c9c95a;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #ebeb74;
+}

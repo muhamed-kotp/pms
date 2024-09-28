@@ -1,0 +1,25 @@
+<?php
+return
+[
+    'solutiontitle'=>'Inventory management',
+    'solutionadvantagesbasetitle'=>'Advantages of the inventory and warehouse management ERP system:',
+    'solutionadvantage1'=>'Establishment of a large number of warehouses',
+    'solutionadvantage2'=>'Possibility of connecting warehouses to a particular branch',
+    'solutionadvantage3'=>'Allowing the control of one branch in several warehouses',
+    'solutionadvantage4'=>'One warehouse controls several other main and subsidiary stores',
+    'solutionadvantage5'=>'Possibility of providing authority to certain staff members in the warehouses',
+    'solutionadvantage6'=>'One store is connected to more than one branch',
+    'solutionadvantage7'=>'To allow the extension of authority to follow up on warehouse balances',
+    'solutionadvantage8'=>'Possibility of making a transfer order between warehouses',
+    'solutionadvantage9'=>'Knowledge of the availability of the product through the warehouse system',
+    'solutionadvantage10'=>'Presentation of the initial balances for requisitioning the procurement process in a timely manner',
+    'solutionadvantage11'=>'General checks of warehouses and items',
+    'solutionadvantage12'=>'Instant surveillance of a comrade in the warehouse outside and inside the site',
+    'solutionadvantage13'=>'Precise calculations of warehouse costs and items',
+    'solutionadvantage14'=>'Possibility of a comparison of prices between different suppliers',
+    'solutionadvantage15'=>'Possibility of adjusting the prices of the items, which automatically changes the prices in the rest of the branches',
+    'solutionadvantage16'=>'Controlling the liquidity of items between warehouses',
+    'solutionadvantage17'=>'Easy movement of items between different branches',
+    'solutionadvantage18'=>'Possibility of stopping the sale of an item at a given balance',
+    'solutionadvantage19'=>'Possibility of managing the warehouse from its own site',   
+];
